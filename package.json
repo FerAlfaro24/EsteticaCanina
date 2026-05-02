@@ -1,0 +1,25 @@
+{
+  "name": "estetica-canina-api",
+  "version": "1.0.0",
+  "description": "API REST para el sistema de administración de un negocio de baño y estética canina",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "db:create": "node src/database/initDB.js"
+  },
+  "keywords": [
+    "estetica-canina",
+    "api",
+    "node",
+    "sqlite"
+  ],
+  "author": "Equipo Estética Canina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "sql.js": "^1.11.0"
+  }
+}
